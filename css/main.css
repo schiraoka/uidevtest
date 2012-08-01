@@ -1,0 +1,166 @@
+/* CMG Dev Test. 31 July 2012. schiraoka@gmail.com */
+/* General Rules  */
+    * {
+      padding: 0;
+      margin: 0;
+      }
+    html {
+      height: 100%;
+      }
+    body {
+      font: 14px Arial,"MS Trebuchet", sans-serif;
+      color: #202020;
+      }
+    .gradient {
+      background: #fff url(../images/bg-gradient.png) repeat-x left top;
+      }
+
+    /* Behold my Google-copy-paste skills!
+       In order: IE 5.5 through 7, IE 8 & 9, IE 10 Consumer Preview, FF, Opera, Safari & Chrome 10, Chrome 11+, W3C & IE 10 Release Preview.
+
+    .gradient {
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff', GradientType=1);
+
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ffffff', GradientType=0)";
+
+      background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #CCCCCC 100%);
+
+      background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #CCCCCC 100%);
+
+      background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #CCCCCC 100%);
+
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #CCCCCC));
+
+      background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #CCCCCC 100%);
+
+      background-image: linear-gradient(to top, #FFFFFF 0%, #CCCCCC 100%);
+      }
+      */
+
+
+    a:link, a:visited, a:hover, a:active {
+      text-decoration: none;
+      color: #c60;
+      }
+
+    .clear { clear: both; }
+
+    /* Standardized colors */
+    .orange {
+      color: #c60;
+      }
+    .black {
+      color: #202020;
+      }
+    .grey {
+      #666;
+      }
+
+
+/* Container Rules */
+    #container {
+      margin: auto;
+      width: 620px;
+      padding: 15px 30px;
+      background-color: #fff;
+      }
+
+
+/* Heading Rules */
+    h1 {
+      font: 28px Georgia, "Times New Roman", Times, serif;
+      color: #202020;
+      margin: 10px 0 20px 0;
+      }
+
+/* Nav Rules */
+    nav li {
+      list-style-type: none;
+      display: inline;
+      }
+
+/* Sidebar Rules */
+    #sidebar {
+      width: 170px;
+      float: left;
+      }
+
+    #sidebar figure {
+      width: 170px;
+      overflow: hidden;
+      }
+    #sidebar figure.captioned-image .photo-credits {
+      display: block;
+      text-align: right;
+      font-size: 10px;
+      color: #666;
+      margin-bottom: 5px;
+      }
+    #sidebar .image-zoom {
+      font-size: 11px;
+      padding-left: 20px;
+      background: url(../images/sprites.gif) no-repeat 0 -390px;
+      }
+    #sidebar figcaption {
+      font-size: 12px;
+      margin-top: 5px;
+      }
+
+/* Content Rules */
+    #content {
+      float: right;
+      width: 430px;
+      }
+
+    #content header {
+      }
+    #content header span {
+      display: block;
+      }
+    #content header .byline-company {
+      font-size: 12px;
+      margin-top: 2px;
+      }
+    #content header .datestamp {
+      margin: 10px 0;
+      font-size: 12px;
+      }
+
+    #content header .social {
+      margin: 5px 0;
+      padding: 5px 0;
+      border-top: thin dotted red;
+      }
+    #content header .social a {
+      font-size: 11px;
+      color: #202020;
+      padding-left: 20px;
+      margin: 0 4px;
+      background: url(../images/sprites.gif) no-repeat 0 0;
+      }
+    #content header .social a.comment {
+      background-position: 0 -480px;
+      }
+    #content header .social a.email {
+      background-position: 0 -255px;
+      }
+    #content header .social a.print {
+      background-position: 0 -300px;
+      }
+    #content header .social a.share {
+      background-position: 0 -345px;
+      }
+    #content header .social a.type-size-normal {
+      background-position: 0 -390px;
+      }
+    #content header .social a.type-size-large {
+      background-position: 0 -435px;
+      }
+
+    #content article p {
+      margin-bottom: 1.1em;
+      }
+
+    .article-large-font {
+      font-size: 16px;
+      }
